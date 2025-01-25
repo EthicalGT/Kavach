@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Kavach"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Signuplogin"
+        tools:targetApi="31">
+        <activity
+            android:name=".videoplayer"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".video_tutorials"
+            android:exported="false" />
+        <activity
+            android:name=".notification"
+            android:exported="false" />
+        <activity
+            android:name=".admin"
+            android:exported="false" />
+        <activity
+            android:name=".admin_login"
+            android:exported="false" />
+        <activity
+            android:name=".about_dev"
+            android:exported="false" />
+        <activity
+            android:name=".feedback"
+            android:exported="false" />
+        <activity
+            android:name=".audio_recording"
+            android:exported="false" />
+        <activity
+            android:name=".addRelative"
+            android:exported="false" />
+        <activity
+            android:name=".sos"
+            android:exported="false" />
+        <activity
+            android:name=".homepage"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Kavach"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".signup"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

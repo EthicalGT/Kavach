@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize the style of the PopupMenu -->
+        <item name="popupMenuStyle">@style/PopupMenuStyle</item>
+    </style>
+
+    <!-- Style for the PopupMenu -->
+    <style name="PopupMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@color/popupbg</item>
+    </style>
+</resources>

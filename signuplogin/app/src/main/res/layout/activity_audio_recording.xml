@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcolor"
+    android:orientation="vertical"
+    tools:context=".audio_recording">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KAVACH"
+            android:textColor="#FFF"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/mic"
+            android:id="@+id/mic"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:id="@+id/stop"
+            android:background="@drawable/login_btn_style"
+            android:text="STOP"
+            android:textColor="#ff0000"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="210dp">
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#4E108C"
+            android:drawableLeft="@drawable/home"
+            android:paddingLeft="45dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:paddingLeft="45dp"
+            android:layout_marginStart="3dp"
+            android:background="#4E108C"
+            android:drawableLeft="@drawable/mysos"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:paddingLeft="45dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="3dp"
+            android:background="#4E108C"
+            android:drawableLeft="@drawable/contacts"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    </LinearLayout>

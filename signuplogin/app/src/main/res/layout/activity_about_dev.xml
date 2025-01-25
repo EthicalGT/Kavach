@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/about_bg"
+    android:orientation="vertical"
+    tools:context=".about_dev">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/brandname"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="5"
+            android:paddingLeft="20dp"
+            android:text="KAVACH"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/alerts"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/baseline_notifications_none_24"
+            android:textColor="#fff"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/bgcolor"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:text="Developer"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:paddingStart="70dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:paddingEnd="70dp"
+            android:paddingTop="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gt"
+            android:paddingTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRASHANT TELORE"
+            android:textColor="#fff"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_phone_24"
+        android:drawablePadding="10dp"
+        android:text="8010486885"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:paddingStart="70dp"
+        android:paddingEnd="70dp"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawablePadding="10dp"
+        android:text="prashanttelore40@gmail.com"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:paddingStart="70dp"
+        android:paddingEnd="50dp"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/internet"
+        android:drawableRight="@drawable/internet"
+        android:drawablePadding="10dp"
+        android:text="Social Media"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:paddingStart="100dp"
+        android:paddingEnd="100dp"
+        android:paddingTop="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#fff"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="30dp"
+            android:id="@+id/instagram"
+            android:layout_height="30dp"
+            android:background="@drawable/instagram"/>
+
+        <Button
+            android:layout_width="30dp"
+            android:id="@+id/whatsapp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/whatsapp"/>
+
+        <Button
+            android:layout_width="30dp"
+            android:id="@+id/snapchat"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/snapchat"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="150dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:id="@+id/home"
+            android:layout_weight="1"
+            android:paddingLeft="45dp"
+            android:background="#4E108C"
+            android:drawableLeft="@drawable/baseline_home_24"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:paddingLeft="45dp"
+            android:layout_marginStart="3dp"
+            android:background="#4E108C"
+            android:id="@+id/sos"
+            android:drawableLeft="@drawable/baseline_sos_24"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:paddingLeft="45dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="3dp"
+            android:background="#4E108C"
+            android:drawableLeft="@drawable/baseline_contacts_24"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
