@@ -1,4 +1,4 @@
-# Kavach
+# Kavach - Your Safety, Our Priority!
 
 ## Overview
 **Kavach** is a **mobile application** designed for **women's safety**, offering a range of **ultimate security features** to provide immediate help in emergencies. With functionalities like **SOS alerts, live location sharing, emergency calling services, and admin notifications**, Kavach ensures the safety and well-being of its users in critical situations.
